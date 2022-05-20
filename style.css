@@ -181,3 +181,30 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@media(max-width:1350px){
+  .glass{
+    flex-direction: column;
+  }
+}
+
+@media(max-width: 800px) {
+  .card {
+    flex-direction: column;
+  }
+  p {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  h2.percentage {
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 505px) {
+  main {
+    width:max-content
+  }
+}
